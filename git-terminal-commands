@@ -34,6 +34,6 @@ push your branch o github
 
 
 # FETCH from a repository
-To Fetch all the objects from the remote repository that are not present in the local one
+Fetches all the objects from the remote repository that are not present in the local one
 > git fetch origin <branch-name or master>
 
