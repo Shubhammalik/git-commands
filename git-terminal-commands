@@ -1,0 +1,39 @@
+NOTE : EVERY COMMAND IS TO BE USED WITHOUT ">"
+
+# CLONE a repository
+simply run this command in your terminal, change the above URL to the repository's which you want to clone
+> git clone https://github.com/Shubhammalik/git-commands.git
+
+
+
+# PUSH to a repository
+If your code is ready to be pushed to your repository then run this in your terminal
+> cd existing-project
+> git init
+> git add . 
+> git commit -m "First Commit"
+> git status
+> git remote add origin https://github.com/Shubhammalik/git-commands.git
+> git push origin master
+
+
+#PULL from a repository
+> cd existing-project
+> git pull origin master
+
+
+
+# Create new BRANCH (your branch)
+Make sure your repository is up to date first using
+> git pull origin master
+now create your branch
+> git checkout -b <new-branch-name>
+push your branch o github
+> git push origin pull-request-demo
+
+
+
+# FETCH from a repository
+To Fetch all the objects from the remote repository that are not present in the local one
+> git fetch origin <branch-name or master>
+
